@@ -11,10 +11,6 @@ app.use(bodyParser.json());
 app.post('/submit', (req, res) => {
   console.log('Data received from smart contract:', req.body);
 
-  // Oracle işlemleriniz burada yapılabilir.
-  // Örneğin: Veriyi doğrulama, başka bir blockchain'e gönderme vb.
-
-  // Şimdilik sadece başarılı yanıt dönelim
   res.json({ status: 'success', message: 'Data received successfully' });
 });
 
