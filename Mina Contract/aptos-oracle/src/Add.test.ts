@@ -10,6 +10,27 @@ import { Field, Mina, PrivateKey, PublicKey, AccountUpdate } from 'o1js';
 
 let proofsEnabled = false;
 
+class OracleAPI {
+  static async sendToOracle(data: any): Promise<void> {
+    const ORACLE_ENDPOINT = 'http://localhost:3001/submit';
+
+    try {
+      const response = await fetch(ORACLE_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error('Oracle request failed');
+      }
+    } catch (error) {
+    }
+  }
+}
+
 describe('Add', () => {
   let deployerAccount: PublicKey,
     deployerKey: PrivateKey,
@@ -58,7 +79,11 @@ describe('Add', () => {
     const txn = await Mina.transaction(senderAccount, () => {
       zkApp.update();
     });
+    
     await txn.prove();
     await txn.sign([senderKey]).send();
+
+    const numData = zkApp.num.get();
+    OracleAPI.sendToOracle({ number: numData });
   });
 });
