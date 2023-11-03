@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #070707;
+    background-image: url('https://www.b62.io/wp-content/uploads/2022/03/b62bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: left center;
+}
+
