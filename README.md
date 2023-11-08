@@ -22,18 +22,18 @@ Thank you to all contributors who have helped kickstart this project and to thos
 
 First, let's install the packages we need.
 
-### Installation
+### Installation for Aptos
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+1. Ensure you have brew installed https://brew.sh/
+2. Open a terminal and enter the following commands
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+    brew update        # Gets the latest updates for packages
+    brew install aptos # Installs the Aptos CLI
    ```
-3. Install NPM packages
+3. You can now get help instructions by running ```aptos help``` You may have to open a new terminal window.
    ```sh
-   npm install
+   aptos help
    ```
 4. Enter your API in `config.js`
    ```js
