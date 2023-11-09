@@ -17,6 +17,11 @@ The motivation for this project comes from the need for secure, reliable, and ea
 
 Thank you to all contributors who have helped kickstart this project and to those who will help it thrive in the times to come. Let's build the future of cross-chain communication together!
 
+<!-- HOW IS WORKING -->
+## How is working
+
+![Alt text]([image link](https://cdn.discordapp.com/attachments/992331085373509653/1172182112259022989/client.png?ex=655f62a9&is=654ceda9&hm=75e69283868a8f19a0f621eed2280ccc55ebe51a024c4459a1ec7714da09fc58&))
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
