@@ -61,6 +61,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@0xAli_](https://twitter.com/0xAli_) - theekmekci0@gmail.com
+Twitter: [@0xAli_](https://twitter.com/0xAli_) - Mail: theekmekci0@gmail.com
 Project Link: [https://github.com/0xAli0/mina-aptos-oracle](https://github.com/0xAli0/mina-aptos-oracle)
 
