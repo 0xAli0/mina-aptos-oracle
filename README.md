@@ -34,7 +34,11 @@ First, let's install the packages we need.
 ### Installation for Aptos
 
 1. Ensure you have brew installed https://brew.sh/
-   ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```
+
+   ```sh
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+
 2. Open a terminal and enter the following commands
 
    ```sh
