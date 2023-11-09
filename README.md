@@ -21,7 +21,7 @@ Thank you to all contributors who have helped kickstart this project and to thos
 ## How is working
 
 <img
-  src="[/path/to/img.jpg](https://cdn.discordapp.com/attachments/992331085373509653/1172182112259022989/client.png?ex=655f62a9&is=654ceda9&hm=75e69283868a8f19a0f621eed2280ccc55ebe51a024c4459a1ec7714da09fc58&)"
+  src="https://imageupload.io/ib/2kgxpHg4zcUoY5U_1699540780.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
