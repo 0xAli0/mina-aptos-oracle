@@ -4,8 +4,8 @@ const aptos = require('aptos');
 
 require("dotenv").config();
 
-const NODE_URL = "https://fullnode.devnet.aptoslabs.com";
-const MODULE_ADDRESS = "0x40076a978340f643e27455a9d75c2e5adc7216a94ba45dfa6c556243efcad259";
+const NODE_URL = "https://fullnode.testnet.aptoslabs.com";
+const MODULE_ADDRESS = "0x025a0ee2dd6a2f49539431c02c9195472e635ba49d1741ab09915847aa1d8055";
 
 async function pushData(data, privateKey) {
   const client = new aptos.AptosClient(NODE_URL);
