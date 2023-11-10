@@ -7,6 +7,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img
+  src="[https://imageupload.io/ib/2kgxpHg4zcUoY5U_1699540780.png](https://imageupload.io/ib/7eWG2ox8kPBukWA_1699650234.png)"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 When it comes to bridging the gap between blockchains, there's always room for innovative solutions that enhance interoperability and facilitate a more inclusive blockchain ecosystem. While there are a multitude of bridges, oracles, and cross-chain services in existence, none seemed to perfectly fit the use case we're passionate about – creating a seamless data oracle between Mina Protocol and Aptos. That's why we created our very own oracle bridge, designed with simplicity and efficiency in mind.
 
 The motivation for this project comes from the need for secure, reliable, and easy-to-use infrastructures that enable smart contracts on Aptos to leverage Mina Protocol's succinct blockchain data in a trustworthy manner. Here's why our project stands out:
