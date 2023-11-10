@@ -8,7 +8,7 @@
 ## About The Project
 
 <img
-  src="[https://imageupload.io/ib/2kgxpHg4zcUoY5U_1699540780.png](https://imageupload.io/ib/7eWG2ox8kPBukWA_1699650234.png)"
+  src="https://imageupload.io/ib/7eWG2ox8kPBukWA_1699650234.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
