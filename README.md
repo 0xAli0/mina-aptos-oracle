@@ -113,6 +113,21 @@ Thank you to all contributors who have helped kickstart this project and to thos
    zk deploy
    ```
 
+### Installation for Mina Contract
+1. Get in ui folder.
+   ```sh
+   cd ui
+   ```
+  
+2. Install node files.
+   ```sh
+   npm install
+   ```
+3. Run the website.
+   ```sh
+   npm run dev
+   ```
+
 <!-- CONTACT -->
 ## Contact
 
